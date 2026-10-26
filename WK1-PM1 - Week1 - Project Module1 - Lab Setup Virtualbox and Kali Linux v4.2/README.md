@@ -7,11 +7,14 @@
 [![Hypervisor - VirtualBox](https://img.shields.io/badge/Hypervisor-Oracle%20VirtualBox%20v7.x-0070C0?style=for-the-badge&logo=virtualbox&logoColor=white)](https://virtualbox.org)
 [![Attacker - Kali Linux](https://img.shields.io/badge/Attacker%20OS-Kali%20Linux%202024%2B-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](https://kali.org)
 [![Network - 10.0.0.0/24](https://img.shields.io/badge/Subnet-10.0.0.0%2F24%20(NATNetwork)-238F89?style=for-the-badge&logo=cisco&logoColor=white)](https://networkwalks.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-arunshekhar.me-10b981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arunshekhar.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arun%20Shekhar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arun-shekhar-209483364)
+[![IIT Jodhpur](https://img.shields.io/badge/IIT%20Jodhpur-Applied%20AI%20%26%20DS-D97706?style=for-the-badge&logo=affinity&logoColor=white)](https://iitj.ac.in)
 [![Status - Verified](https://img.shields.io/badge/Lab%20Status-100%25%20Verified%20%26%20Tested-success?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/arun9557/networkwalks_Cybersecurity_INT)
 
 <p align="center">
-  <b>Author:</b> Arun | <b>Internship Batch:</b> B084 | <b>Organization:</b> NetworkWalks Academy<br>
-  <b>Project ID:</b> WK1-PM1 | <b>Release Version:</b> v4.2 Production Baseline
+  <b>Lead Researcher:</b> <a href="https://arunshekhar.me"><b>Arun Pratap Singh (Arun Shekhar)</b></a> | <b>IIT Jodhpur</b> (Applied AI & DS)<br>
+  <b>Internship Batch:</b> B084 | <b>Organization:</b> NetworkWalks Academy | <b>Project ID:</b> WK1-PM1
 </p>
 
 ---
@@ -466,21 +469,54 @@ Through the architecture and execution of Task WK1-PM1, the following profession
 
 ---
 
-## 10. Author & Project Metadata
+## 10. Author & Research Profile
 
-| Attribute | Details |
+<div align="center">
+
+### 👨‍💻 **Arun Pratap Singh (Arun Shekhar)**
+**Cybersecurity Researcher • Bug Bounty Hunter • Applied AI & Data Science @ IIT Jodhpur**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-arunshekhar.me-10b981?style=flat-square&logo=googlechrome&logoColor=white)](https://arunshekhar.me)
+[![SecLab](https://img.shields.io/badge/Security%20Lab-arunshekhar.me%2Fcybersecurity-C00000?style=flat-square&logo=kalilinux&logoColor=white)](https://arunshekhar.me/cybersecurity)
+[![AI Lab](https://img.shields.io/badge/AI%20Lab-arunshekhar.me%2Fai-8A2BE2?style=flat-square&logo=openai&logoColor=white)](https://arunshekhar.me/ai)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arun%20Shekhar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arun-shekhar-209483364)
+[![GitHub](https://img.shields.io/badge/GitHub-arun9557-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/arun9557)
+[![Email](https://img.shields.io/badge/Email-arunshekhar.cyber%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:arunshekhar.cyber@gmail.com)
+
+</div>
+
+<br>
+
+| Attribute | Profile & Contact Details |
 | :--- | :--- |
-| **Security Analyst / Author** | **Arun** |
-| **GitHub Handle** | [@arun9557](https://github.com/arun9557) |
-| **Primary Repository** | [networkwalks_Cybersecurity_INT](https://github.com/arun9557/networkwalks_Cybersecurity_INT) |
-| **Internship Batch** | NetworkWalks Cybersecurity Internship (**Batch B084**) |
+| **Full Name** | **Arun Pratap Singh (Arun Shekhar)** |
+| **Academic Affiliation** | **Indian Institute of Technology (IIT) Jodhpur** — B.S. in Applied AI & Data Science (Roll No: B24BS2044) |
+| **Primary Specialization** | Web Application Penetration Testing (OWASP Top 10), Network Defense, SIEM, OSINT, Zero-Trust Architecture |
+| **Official Portfolio** | [https://arunshekhar.me](https://arunshekhar.me) *(Interactive CLI Terminal with 12,400+ visitors)* |
+| **Dedicated SecLab** | [https://arunshekhar.me/cybersecurity](https://arunshekhar.me/cybersecurity) *(AS_SECURE Cyber Army Dashboard)* |
+| **AI Research Lab** | [https://arunshekhar.me/ai](https://arunshekhar.me/ai) *(Bluetooth Mesh Offline AI & Neural Core)* |
+| **LinkedIn Profile** | [linkedin.com/in/arun-shekhar-209483364](https://www.linkedin.com/in/arun-shekhar-209483364) |
+| **GitHub Repository** | [github.com/arun9557](https://github.com/arun9557) |
+| **Professional Contact** | `arunshekhar.cyber@gmail.com` / `arunshekhram@gmail.com` |
+| **Internship Program** | NetworkWalks Cybersecurity & Ethical Hacking Internship (**Batch B084**) |
 | **Task Identifier** | **WK1-PM1** (Week 1 — Project Module 1) |
-| **Evaluation Status** | Completed, Tested, and Verified ✅ |
-| **Date of Verification** | October 2026 |
+| **Lab Validation Status** | **100% Tested, Verified & Operational** ✅ |
+
+<br>
+
+### 🎓 Verified Certifications & Credentials
+
+| Certification Title | Issuing Body | Score / Status | Verified Domains & Focus | Credential ID |
+| :--- | :--- | :---: | :--- | :---: |
+| **Foundations of Cybersecurity** | Google (Coursera) | **95.31%** | SIEM, NIST 800-53, Linux, SQL, Network Security, Infosec Controls | `69HVT3NGYFVY` |
+| **Play It Safe: Manage Security Risks** | Google (Coursera) | **91.87%** | NIST RMF, CIS Controls, OWASP Top 10, Incident Response, Auditing | `O1PSGCJFF3UO` |
+| **Network Foundations & Physical Layer** | Total Seminars (CompTIA Track) | **91.66%** | OSI & TCP/IP Stack, Subnetting, Routing, Switching, Troubleshooting | `H9E8KOFII3WB` |
+| **OSINT Fundamentals & AI Hacking** | TCM Security | **Verified Track** | Open-Source Intelligence, Attack Surface Mapping, Adversarial AI Recon | `TCM-VERIFIED` |
+| **Dark Web Ultimate Guide** | Red Block Academy | **Verified** | Tor Onion Routing, Threat Intelligence Gathering, Anonymity & OPSEC | `RBA-VERIFIED` |
 
 <div align="center">
 
 ---
-*Created with dedication for the NetworkWalks Cybersecurity & Ethical Hacking Internship Program.*
+*Developed with technical rigor for the NetworkWalks Cybersecurity & Ethical Hacking Internship Program (Batch B084).*
 
 </div>
