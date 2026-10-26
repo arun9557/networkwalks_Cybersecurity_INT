@@ -118,7 +118,15 @@ A virtualized cyber lab provides an ethical, isolated testing ground necessary f
 1. Downloaded 64-bit 7-Zip from the official website: [https://7-zip.org/download.html](https://7-zip.org/download.html).
 2. Installed 7-Zip to extract `.7z` compressed VirtualBox Kali VM archives.
 
-*(Screenshot: `7 ZIP WEBPAGE.jpg`)*
+<p align="center">
+  <img src="./7%20ZIP%20WEBPAGE.jpg" alt="7-Zip Official Download Page" width="70%" />
+  <br><em>Figure 1: 7-Zip Official Download Page</em>
+</p>
+
+<p align="center">
+  <img src="./7%20ZIP%20SUCCESFULL%20INSTALLED%20SS.jpg" alt="7-Zip Installed Successfully" width="70%" />
+  <br><em>Figure 2: 7-Zip Successfully Installed</em>
+</p>
 
 ---
 
@@ -126,6 +134,16 @@ A virtualized cyber lab provides an ethical, isolated testing ground necessary f
 1. Downloaded Oracle VM VirtualBox for Windows: [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads).
 2. Installed VirtualBox with default networking drivers and VirtualBox USB support.
 3. Downloaded and installed the **VirtualBox Extension Pack** for USB 2.0/3.0 support and bidirectional clipboard integration.
+
+<p align="center">
+  <img src="./VIRTUAL%20BOX%20WEB%20PAGE.jpg" alt="VirtualBox Official Download Page" width="70%" />
+  <br><em>Figure 3: VirtualBox Official Download Page</em>
+</p>
+
+<p align="center">
+  <img src="./VIRTUAL%20BOX%20INSTALED%20SS.jpg" alt="VirtualBox Installed Successfully" width="70%" />
+  <br><em>Figure 4: VirtualBox Installed Successfully</em>
+</p>
 
 ---
 
@@ -142,12 +160,28 @@ A dedicated **NAT Network** was created instead of default NAT so all present an
    - **Enable IPv6:** `Unchecked` ❌
 4. Clicked **Apply**.
 
+<p align="center">
+  <img src="./VirtualBox%20me%20Custom%20NATNetwork%20Banayein%20-%20COMPLETED%20SS.jpg" alt="VirtualBox Custom NATNetwork Configuration" width="75%" />
+  <br><em>Figure 5: Custom NATNetwork (10.0.0.0/24) Created in VirtualBox</em>
+</p>
+
 ---
 
 ### Step 4: Import and Configure Kali Linux VM
 1. Downloaded the official pre-built VirtualBox image (`.7z`) from [kali.org/get-kali](https://www.kali.org/get-kali/#kali-virtual-machines).
 2. Extracted the archive using 7-Zip.
 3. In VirtualBox, selected **Machine** ➔ **Add** and imported the extracted `.vbox` file.
+
+<p align="center">
+  <img src="./KALI%20LINUX%20WEB%20PAGE.jpg" alt="Kali Linux Pre-built VM Download Page" width="70%" />
+  <br><em>Figure 6: Kali Linux Pre-built VM Download Page</em>
+</p>
+
+<p align="center">
+  <img src="./KALI%20LINUX%20DOWLOADING%20IN%20PROCESS.jpg" alt="Kali Linux Downloading in Process" width="70%" />
+  <br><em>Figure 7: Kali Linux Image Download in Progress</em>
+</p>
+
 4. Opened **VM Settings** and configured the following parameters:
    - **General ➔ Advanced:**
      - Shared Clipboard: `Bidirectional`
@@ -166,6 +200,16 @@ A dedicated **NAT Network** was created instead of default NAT so all present an
      - Name: `downloads`
      - Auto-mount: `Checked` ✅
 
+<p align="center">
+  <img src="./kali%20linux%20details%20.jpg" alt="Kali Linux VM Configuration Details" width="75%" />
+  <br><em>Figure 8: Kali Linux System and Hardware Configuration</em>
+</p>
+
+<p align="center">
+  <img src="./Network%20%20Adapter%201.jpg" alt="Kali Linux Network Adapter Settings" width="75%" />
+  <br><em>Figure 9: Network Adapter 1 set to NatNetwork with Promiscuous Mode Allow All</em>
+</p>
+
 ---
 
 ### Step 5: Configure Static IP Address on Kali Linux
@@ -180,6 +224,11 @@ A dedicated **NAT Network** was created instead of default NAT so all present an
      - **Gateway:** `10.0.0.1`
    - **DNS Servers:** `8.8.8.8` (or `10.0.0.1`)
 5. Clicked **Save**.
+
+<p align="center">
+  <img src="./Static%20IP%20set%20karne%20ke%20liye%20ss.jpg" alt="Static IP Configuration on Kali Linux" width="75%" />
+  <br><em>Figure 10: Setting Static IP 10.0.0.2, Netmask 24, Gateway 10.0.0.1 and DNS 8.8.8.8</em>
+</p>
 
 ---
 
@@ -220,21 +269,53 @@ The lab configuration was verified using the following diagnostic tests:
 ### Terminal Verification Output Snippet:
 ```text
 ┌──(kali㉿kali)-[~]
-└─$ ip a show dev eth0
+└─$ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+sudo nmcli connection down "Wired connection 1"
+sudo nmcli connection up "Wired connection 1"
+
+Connection 'Wired connection 1' successfully deactivated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/5)
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/6)
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:c3:fb:76 brd ff:ff:ff:ff:ff:ff
     inet 10.0.0.2/24 brd 10.0.0.255 scope global noprefixroute eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::7882:4125:28ce:8cb3/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 
 ┌──(kali㉿kali)-[~]
-└─$ ping -c 3 8.8.8.8
+└─$ ping -c 4 8.8.8.8
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
-64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=14.2 ms
-64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=13.8 ms
-64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=13.9 ms
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=111 time=90.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=111 time=58.6 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=111 time=35.0 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=111 time=32.7 ms
 
 --- 8.8.8.8 ping statistics ---
-3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+4 packets transmitted, 4 received, 0% packet loss, time 3048ms
+rtt min/avg/max/mdev = 32.742/54.165/90.228/23.157 ms
+
+┌──(kali㉿kali)-[~]
+└─$ ping -c 4 google.com
+PING google.com (172.217.26.14) 56(84) bytes of data.
+64 bytes from tzdelb-ay-in-f14.1e100.net (172.217.26.14): icmp_seq=1 ttl=112 time=33.2 ms
+64 bytes from tzdelb-ay-in-f14.1e100.net (172.217.26.14): icmp_seq=2 ttl=112 time=158 ms
+64 bytes from tzdelb-ay-in-f14.1e100.net (172.217.26.14): icmp_seq=3 ttl=112 time=36.7 ms
+64 bytes from tzdelb-ay-in-f14.1e100.net (172.217.26.14): icmp_seq=4 ttl=112 time=52.2 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3640ms
+rtt min/avg/max/mdev = 33.212/70.125/158.460/51.497 ms
 ```
+
 
 ---
 
