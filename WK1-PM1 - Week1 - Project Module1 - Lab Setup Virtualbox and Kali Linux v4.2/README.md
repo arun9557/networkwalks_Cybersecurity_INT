@@ -161,7 +161,7 @@ Kali Linux pre-built appliances are distributed in high-compression `.7z` archiv
 
 | Figure 1: 7-Zip Official Download Page | Figure 2: 7-Zip Successfully Installed |
 | :---: | :---: |
-| <img src="./7%20ZIP%20WEBPAGE.jpg" width="450px" alt="7-Zip Official Download Page" style="border: 1px solid #444; border-radius: 6px;" /> | <img src="./7%20ZIP%20SUCCESFULL%20INSTALLED%20SS.jpg" width="450px" alt="7-Zip Installed Successfully" style="border: 1px solid #444; border-radius: 6px;" /> |
+| <img src="./images/7%20ZIP%20WEBPAGE.jpg" width="450px" alt="7-Zip Official Download Page" style="border: 1px solid #444; border-radius: 6px;" /> | <img src="./images/7%20ZIP%20SUCCESFULL%20INSTALLED%20SS.jpg" width="450px" alt="7-Zip Installed Successfully" style="border: 1px solid #444; border-radius: 6px;" /> |
 
 </div>
 
@@ -179,7 +179,7 @@ Kali Linux pre-built appliances are distributed in high-compression `.7z` archiv
 
 | Figure 3: VirtualBox Download Hub | Figure 4: VirtualBox Installation Complete |
 | :---: | :---: |
-| <img src="./VIRTUAL%20BOX%20WEB%20PAGE.jpg" width="450px" alt="VirtualBox Official Download Page" style="border: 1px solid #444; border-radius: 6px;" /> | <img src="./VIRTUAL%20BOX%20INSTALED%20SS.jpg" width="450px" alt="VirtualBox Installed Successfully" style="border: 1px solid #444; border-radius: 6px;" /> |
+| <img src="./images/VIRTUAL%20BOX%20WEB%20PAGE.jpg" width="450px" alt="VirtualBox Official Download Page" style="border: 1px solid #444; border-radius: 6px;" /> | <img src="./images/VIRTUAL%20BOX%20INSTALED%20SS.jpg" width="450px" alt="VirtualBox Installed Successfully" style="border: 1px solid #444; border-radius: 6px;" /> |
 
 </div>
 
@@ -199,7 +199,7 @@ Rather than relying on individual NAT adapters that sandbox each machine from th
 4. Clicked **Apply** to write network definitions into `VirtualBox.xml`.
 
 <p align="center">
-  <img src="./VirtualBox%20me%20Custom%20NATNetwork%20Banayein%20-%20COMPLETED%20SS.jpg" width="85%" alt="VirtualBox Custom NATNetwork Configuration" style="border: 2px solid #0070C0; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
+  <img src="./images/VirtualBox%20me%20Custom%20NATNetwork%20Banayein%20-%20COMPLETED%20SS.jpg" width="85%" alt="VirtualBox Custom NATNetwork Configuration" style="border: 2px solid #0070C0; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
   <br><b>Figure 5: Custom NATNetwork (10.0.0.0/24) Created and Active in VirtualBox Global Tools</b>
 </p>
 
@@ -217,7 +217,7 @@ Rather than relying on individual NAT adapters that sandbox each machine from th
 
 | Figure 6: Kali Linux Pre-built VM Selection | Figure 7: Kali Linux Image Decompression |
 | :---: | :---: |
-| <img src="./KALI%20LINUX%20WEB%20PAGE.jpg" width="450px" alt="Kali Linux Pre-built VM Download Page" style="border: 1px solid #444; border-radius: 6px;" /> | <img src="./KALI%20LINUX%20DOWLOADING%20IN%20PROCESS.jpg" width="450px" alt="Kali Linux Image Download in Progress" style="border: 1px solid #444; border-radius: 6px;" /> |
+| <img src="./images/KALI%20LINUX%20WEB%20PAGE.jpg" width="450px" alt="Kali Linux Pre-built VM Download Page" style="border: 1px solid #444; border-radius: 6px;" /> | <img src="./images/KALI%20LINUX%20DOWLOADING%20IN%20PROCESS.jpg" width="450px" alt="Kali Linux Image Download in Progress" style="border: 1px solid #444; border-radius: 6px;" /> |
 
 </div>
 
@@ -248,7 +248,7 @@ Before booting the appliance, essential security and productivity settings were 
 
 | Figure 8: Kali VM Hardware & Memory Specs | Figure 9: Adapter 1 Mapped to NatNetwork |
 | :---: | :---: |
-| <img src="./kali%20linux%20details%20.jpg" width="450px" alt="Kali Linux System Details" style="border: 1px solid #444; border-radius: 6px;" /> | <img src="./Network%20%20Adapter%201.jpg" width="450px" alt="Kali Linux Network Settings" style="border: 1px solid #444; border-radius: 6px;" /> |
+| <img src="./images/kali%20linux%20details%20.jpg" width="450px" alt="Kali Linux System Details" style="border: 1px solid #444; border-radius: 6px;" /> | <img src="./images/Network%20%20Adapter%201.jpg" width="450px" alt="Kali Linux Network Settings" style="border: 1px solid #444; border-radius: 6px;" /> |
 
 </div>
 
@@ -273,7 +273,7 @@ To ensure tools, reverse shells, and lab documentation remain stable across rebo
 5. Clicked **Save**.
 
 <p align="center">
-  <img src="./Static%20IP%20set%20karne%20ke%20liye%20ss.jpg" width="85%" alt="Static IP Configuration on Kali Linux" style="border: 2px solid #557C94; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
+  <img src="./images/Static%20IP%20set%20karne%20ke%20liye%20ss.jpg" width="85%" alt="Static IP Configuration on Kali Linux" style="border: 2px solid #557C94; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
   <br><b>Figure 10: Manual IPv4 Configuration on Kali Linux (Address: 10.0.0.2/24 | Gateway: 10.0.0.1 | DNS: 8.8.8.8)</b>
 </p>
 
@@ -295,7 +295,7 @@ sudo nmcli connection up "Wired connection 1"
 ```
 
 <p align="center">
-  <img src="./Internet%20Connectivity%20Fix%20ss.jpg" width="88%" alt="Internet Connectivity Fix Terminal Screenshot" style="border: 2px solid #238F89; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
+  <img src="./images/Internet%20Connectivity%20Fix%20ss.jpg" width="88%" alt="Internet Connectivity Fix Terminal Screenshot" style="border: 2px solid #238F89; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
   <br><b>Figure 11: Real Live Kali Terminal Execution: DAD Timeout Fix, Interface IP Binding, and ICMP Ping Verification</b>
 </p>
 
