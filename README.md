@@ -7,6 +7,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-arunshekhar.me-10b981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arunshekhar.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arun%20Shekhar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arun-shekhar-209483364)
 [![GitHub](https://img.shields.io/badge/GitHub-arun9557-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arun9557)
+[![Mentor](https://img.shields.io/badge/Mentor-Waqas%20Karim%20CCIE-C00000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waqaskarimccie)
 [![IIT Jodhpur](https://img.shields.io/badge/IIT%20Jodhpur-Applied%20AI%20%26%20DS-D97706?style=for-the-badge&logo=affinity&logoColor=white)](https://iitj.ac.in)
 [![Google Certified](https://img.shields.io/badge/Google%20Cybersecurity-95.31%25%20Verified-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://arunshekhar.me)
 
@@ -73,7 +74,7 @@ Each project module represents a structured cybersecurity milestone covering iso
 | **Specialization** | Web Application Penetration Testing (OWASP Top 10), Network Defense, SIEM, OSINT, Threat Modeling |
 | **Personal Portfolio** | [https://arunshekhar.me](https://arunshekhar.me) *(Interactive CLI Terminal with 12,400+ unique visitors)* |
 | **Security Operations Hub** | [https://arunshekhar.me/cybersecurity](https://arunshekhar.me/cybersecurity) *(AS_SECURE Cyber Army Dashboard)* |
-| **AI Systems Hub** | [https://arunshekhar.me/ai](https://arunshekhar.me/ai) *(Offline Bluetooth Mesh AI Network & Neural Core)* |
+| **AI Systems-Hub** | [https://arunshekhar.me/ai](https://arunshekhar.me/ai) *(Offline Bluetooth Mesh AI Network & Neural Core)* |
 | **LinkedIn** | [linkedin.com/in/arun-shekhar-209483364](https://www.linkedin.com/in/arun-shekhar-209483364) |
 | **GitHub** | [github.com/arun9557](https://github.com/arun9557) |
 | **Contact Email** | `arunshekhar.cyber@gmail.com` / `arunshekhram@gmail.com` |
@@ -91,6 +92,17 @@ Each project module represents a structured cybersecurity milestone covering iso
 | **Network Foundations & Physical Layer** | Total Seminars (CompTIA Track) | **91.66%** | OSI & TCP/IP Models, Subnetting, Routing, Protocols, Troubleshooting | `H9E8KOFII3WB` |
 | **OSINT Fundamentals & AI Hacking** | TCM Security | **Verified Track** | Open-Source Intelligence, Footprint Recon, Adversarial AI Recon | `TCM-VERIFIED` |
 | **Dark Web Ultimate Guide** | Red Block Academy | **Verified** | Tor Onion Routing, Threat Intelligence, Anonymity & OPSEC Analysis | `RBA-VERIFIED` |
+
+---
+
+## 🙏 Mentorship & Acknowledgments
+
+- **Lead Instructor & Program Director:** **Waqas Karim CCIE** ([@waqaskarimccie](https://github.com/waqaskarimccie))
+- **Academy:** [NetworkWalks Academy](https://networkwalks.com)
+- **LinkedIn Profile:** [linkedin.com/in/waqaskarim](https://www.linkedin.com/in/waqaskarim/)
+- **Sample Benchmark Reference:** [NETWORKWALKS-B082-WK1-PM1-CYBERSECURITY-LAB-SETUP-SAMPLE](https://github.com/waqaskarimccie/NETWORKWALKS-B082-WK1-PM1-CYBERSECURITY-LAB-SETUP-SAMPLE)
+
+> Sincere gratitude to Sir Waqas Karim CCIE for designing this hands-on cybersecurity internship curriculum, establishing clear architectural benchmarks, and mentoring our cohort throughout Batch B084.
 
 <div align="center">
 
